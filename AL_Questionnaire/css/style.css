@@ -1,0 +1,55 @@
+body {
+  font-family: "Cairo", sans-serif;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+#myHeader {
+  text-align: center;
+  font-size: 1em;
+  padding: 10px;
+  color: rgb(85, 145, 77);
+  box-shadow: 0 0 5px black;
+}
+
+#wrapper {
+  padding: 3%;
+}
+
+input {
+  margin: 5px 10px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px;
+  margin: 20px 0;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  border-bottom: 3px solid #333;
+}
+
+#submit {
+  margin-top: 20px;
+  background: blue;
+  color: white;
+}
+#reset {
+  background: red;
+  color: white;
+}
+#answer {
+  border: 1px dashed #ccc;
+  background: #eee;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  padding: 5px;
+  color: rgb(85, 145, 77);
+  box-shadow: 0 0 5px black;
+}
