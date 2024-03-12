@@ -1,203 +1,206 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>AL INFLUENCER QUESTIONARE</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap"
-      rel="stylesheet"
-    />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Influencer Questionnaire</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body>
-    <!--Basic Page Header-->
-    <header id="myHeader">
-      <h1>What Kind Of Influencer Are You?</h1>
-    </header>
-
-    <div id="wrapper">
-      <form id="questionnaire">
-        <!--Question 1-->
-        <h2>1. What is the budget for your influencer marketing campaign?</h2>
-
-        <!--Question one Answer selections-->
-        <label
-          ><input type="radio" name="q1a" value="q1Selection1Archetype1" /> 0 -
-          $25 </label
-        ><br />
-        <label
-          ><input type="radio" name="q1a" value="q1Selection2Archetype3" /> $26
-          - $300 </label
-        ><br />
-        <label
-          ><input type="radio" name="q1a" value="q1Selection3Archetype2" /> $300
-          - $999 </label
-        ><br />
-        <label
-          ><input type="radio" name="q1a" value="q1Selection4Archetype4" />
-          $1000 + </label
-        ><br />
-
+    <div class="container">
+        <header class="d-flex justify-content-center py-3 border-bottom text-bg-primary">
+            <h2 class="fw-bold text-white">What Kind Of Influencer Are You?</h2>
+        </header>
+      </div>
+<!--Question 1-->
+      <div class="container text-left justify-content-center w-100 mt-5">
+        <div class="row border-bottom">
+          <div class="col">
+            <h5 class="text-primary-emphasis">What is the budget for your influencer marketing campaign?</h5>
+            <ul class="list-group w-75">
+                <li class="list-group-item border-0">
+                  <input class="form-check-input me-1" type="radio" value="q1Selection1Archetype1" name="q1Radio">
+                  <label class="form-check-label" for="firstCheckbox">0 - $25</label>
+                </li>
+                <li class="list-group-item border-0">
+                  <input class="form-check-input me-1" type="radio" value="q1Selection2Archetype3" name="q1Radio">
+                  <label class="form-check-label" for="secondCheckbox">$26 - $300</label>
+                </li>
+                <li class="list-group-item border-0">
+                  <input class="form-check-input me-1" type="radio" value="q1Selection3Archetype2" name="q1Radio">
+                  <label class="form-check-label" for="thirdCheckbox">$300 - $999</label>
+                </li>
+                <li class="list-group-item border-0">
+                    <input class="form-check-input me-1" type="radio" value="q1Selection4Archetype4" name="q1Radio">
+                    <label class="form-check-label" for="thirdCheckbox">$1000 +</label>
+                  </li>
+              </ul>
+          </div>
+        </div>
         <!--Question 2-->
-        <h2>
-          2. What is the primary type of media that you want influencers to
-          utilize for your marketing campaign?
-        </h2>
-
-        <!--Question Two Answer selections-->
-        <label
-          ><input type="radio" name="q2a" value="q2Selection1Archetype2" />
-          Videos in excess of 20 minutes</label
-        ><br />
-        <label
-          ><input type="radio" name="q2a" value="q2Selection2Archetype4" />
-          Short videos, 60 seconds to 10 minutes </label
-        ><br />
-        <label
-          ><input type="radio" name="q2a" value="q2Selection3Archetype1" />
-          Photography with a simple caption </label
-        ><br />
-        <label
-          ><input type="radio" name="q2a" value="q2Selection4Archetype3" />
-          Storyform content, e.g. photodequences, in-text narratives </label
-        ><br />
-
-        <!--Question 3-->
-        <h2>
-          3. What is the follower size of your preferred social media platform
-          of choice?
-        </h2>
-
-        <!--Question Three Answer selections-->
-        <label
-          ><input type="radio" name="q3a" value="q3Selection1Archetype1" /> 0 -
-          10,000 </label
-        ><br />
-        <label
-          ><input type="radio" name="q3a" value="q3Selection2Archetype3" />
-          10,001 - 29,999 </label
-        ><br />
-        <label
-          ><input type="radio" name="q3a" value="q3Selection3Archetype2" />
-          30,000 - 99,999 </label
-        ><br />
-        <label
-          ><input type="radio" name="q3a" value="q3Selection4Archetype4" />
-          100,000 + </label
-        ><br />
-
-        <!--Question 4-->
-        <h2>
-          4. Choose the statement that most closely matches your organization.
-        </h2>
-
-        <!--Question Four Answer selections-->
-        <label
-          ><input type="radio" name="q4a" value="q4Selection1Archetype3" />
-          Philanthropy is crucial to our organization, and we prefer influencers
-          who proactively engage in cause-oriented activism </label
-        ><br />
-        <label
-          ><input type="radio" name="q4a" value="q4Selection2Archetype1" />
-          Philanthropy is important, and we encourage influencers to be involved
-          with causes that are important to them </label
-        ><br />
-        <label
-          ><input type="radio" name="q4a" value="q4Selection3Archetype2" /> Our
-          organization is neutral regarding influencer engagement in
-          cause-oriented activism </label
-        ><br />
-        <label
-          ><input type="radio" name="q4a" value="q4Selection4Archetype4" /> Our
-          organization prefers influencers who do not use their profiles for
-          cause-oriented activism </label
-        ><br />
-
-        <!--Question 5-->
-        <h2>
-          5. How important is it for influencers to proactively engage with
-          their followers?
-        </h2>
-
-        <!--Question Five Answer selections-->
-        <label
-          ><input type="radio" name="q5a" value="q5Selection1Archetype2" /> Very
-          important </label
-        ><br />
-        <label
-          ><input type="radio" name="q5a" value="q5Selection2Archetype1" />
-          Somewhat important </label
-        ><br />
-        <label
-          ><input type="radio" name="q5a" value="q5Selection3Archetype3" /> It
-          is essential </label
-        ><br />
-        <label
-          ><input type="radio" name="q5a" value="q5Selection4Archetype4" /> Not
-          at all </label
-        ><br />
-
-        <!--Question 6-->
-        <h2>
-          6. How frequently do you post on the primary platform you utilize for
-          social media marketing?
-        </h2>
-
-        <!--Question Six Answer selections-->
-        <label
-          ><input type="radio" name="q6a" value="q6Selection1Archetype4" /> 1-2
-          times weekly </label
-        ><br />
-        <label
-          ><input type="radio" name="q6a" value="q6Selection2Archetype3" /> Once
-          per day </label
-        ><br />
-        <label
-          ><input type="radio" name="q6a" value="q6Selection3Archetype2" />
-          Multiple times per day </label
-        ><br />
-        <label
-          ><input type="radio" name="q6a" value="q6Selection4Archetype1" /> A
-          few times per month </label
-        ><br />
-
-        <!--Question 7-->
-        <h2>
-          7. Which of the following best describes the type of reputation you
-          prefer influencers working with your organization to maintain?
-        </h2>
-
-        <!--Question Seven Answer selections-->
-        <label
-          ><input type="radio" name="q7a" value="q7Selection1Archetype1" />
-          Local, relatable personas </label
-        ><br />
-        <label
-          ><input type="radio" name="q7a" value="q7Selection2Archetype2" />
-          Outgoing, enthusiastic performers </label
-        ><br />
-        <label
-          ><input type="radio" name="q7a" value="q7Selection3Archetype3" />
-          Informative, interesting friends </label
-        ><br />
-        <label
-          ><input type="radio" name="q7a" value="q7Selection4Archetype4" />
-          Highly popular celebrities </label
-        ><br />
-
-        <button type="button" id="submit" onclick="calculateAnswers()">
-          Submit Your Selections
-        </button>
-        <button type="reset" id="reset" onclick="resetAnswer()">Reset</button>
-        <script src="js/qscripts.js"></script>
-      </form>
-
-      <div id="answer">Click Submit to see your results!</div>
+        <div class="row border-bottom mt-5">
+            <div class="col">
+              <h5 class="text-primary-emphasis">What is the primary type of media that you want influencers to utilize for your marketing campaign?</h5>
+              <ul class="list-group w-75">
+                  <li class="list-group-item border-0">
+                    <input class="form-check-input me-1" type="radio" value="q2Selection1Archetype2" name="q2Radio">
+                    <label class="form-check-label" for="firstCheckbox">Videos in excess of 20 minutes</label>
+                  </li>
+                  <li class="list-group-item border-0">
+                    <input class="form-check-input me-1" type="radio" value="q2Selection2Archetype4" name="q2Radio">
+                    <label class="form-check-label" for="secondCheckbox">Short videos, 60 seconds to 10 minutes</label>
+                  </li>
+                  <li class="list-group-item border-0">
+                    <input class="form-check-input me-1" type="radio" value="q2Selection3Archetype1" name="q2Radio">
+                    <label class="form-check-label" for="thirdCheckbox">Photography with a simple caption</label>
+                  </li>
+                  <li class="list-group-item border-0">
+                      <input class="form-check-input me-1" type="radio" value="q2Selection4Archetype3" name="q2Radio">
+                      <label class="form-check-label" for="thirdCheckbox">Storyform content, e.g. photodequences, in-text narratives</label>
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <!--Question 3-->
+          <div class="row border-bottom mt-5">
+            <div class="col">
+              <h5 class="text-primary-emphasis">What is the follower size of your preferred social media platform of choice?</h5>
+              <ul class="list-group w-75">
+                  <li class="list-group-item border-0">
+                    <input class="form-check-input me-1" type="radio" value="q3Selection1Archetype1" name="q3Radio">
+                    <label class="form-check-label" for="firstCheckbox">0 - 10,000</label>
+                  </li>
+                  <li class="list-group-item border-0">
+                    <input class="form-check-input me-1" type="radio" value="q3Selection2Archetype3" name="q3Radio">
+                    <label class="form-check-label" for="secondCheckbox">10,001 - 29,999</label>
+                  </li>
+                  <li class="list-group-item border-0">
+                    <input class="form-check-input me-1" type="radio" value="q3Selection3Archetype2" name="q3Radio">
+                    <label class="form-check-label" for="thirdCheckbox">30,000 - 99,999</label>
+                  </li>
+                  <li class="list-group-item border-0">
+                      <input class="form-check-input me-1" type="radio" value="q3Selection4Archetype4" name="q3Radio">
+                      <label class="form-check-label" for="thirdCheckbox">100,000 +</label>
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <!--Question 4-->
+          <div class="row border-bottom mt-5">
+            <div class="col">
+              <h5 class="text-primary-emphasis">Choose the statement that most closely matches your organization.</h5>
+              <ul class="list-group w-100">
+                  <li class="list-group-item border-0">
+                    <input class="form-check-input me-1" type="radio" value="q4Selection1Archetype3" name="q4Radio">
+                    <label class="form-check-label" for="firstCheckbox">Philanthropy is crucial to our organization, and we prefer influencers who proactively engage in cause-oriented activism</label>
+                  </li>
+                  <li class="list-group-item border-0">
+                    <input class="form-check-input me-1" type="radio" value="q4Selection2Archetype1" name="q4Radio">
+                    <label class="form-check-label" for="secondCheckbox">Philanthropy is important, and we encourage influencers to be involved with causes that are important to them</label>
+                  </li>
+                  <li class="list-group-item border-0">
+                    <input class="form-check-input me-1" type="radio" value="q4Selection3Archetype2" name="q4Radio">
+                    <label class="form-check-label" for="thirdCheckbox">Our organization is neutral regarding influencer engagement in cause-oriented activism</label>
+                  </li>
+                  <li class="list-group-item border-0">
+                      <input class="form-check-input me-1" type="radio" value="q4Selection4Archetype4" name="q4Radio">
+                      <label class="form-check-label" for="thirdCheckbox">Our organization prefers influencers who do not use their profiles for cause-oriented activism</label>
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <!--Question 5-->
+          <div class="row border-bottom mt-5">
+            <div class="col">
+              <h5 class="text-primary-emphasis">How important is it for influencers to proactively engage with their followers?</h5>
+              <ul class="list-group w-100">
+                  <li class="list-group-item border-0">
+                    <input class="form-check-input me-1" type="radio" value="q5Selection1Archetype2" name="q5Radio">
+                    <label class="form-check-label" for="firstCheckbox">Very important</label>
+                  </li>
+                  <li class="list-group-item border-0">
+                    <input class="form-check-input me-1" type="radio" value="q5Selection2Archetype1" name="q5Radio">
+                    <label class="form-check-label" for="secondCheckbox">Somewhat important</label>
+                  </li>
+                  <li class="list-group-item border-0">
+                    <input class="form-check-input me-1" type="radio" value="q5Selection3Archetype3" name="q5Radio">
+                    <label class="form-check-label" for="thirdCheckbox">It is essential</label>
+                  </li>
+                  <li class="list-group-item border-0">
+                      <input class="form-check-input me-1" type="radio" value="q5Selection4Archetype4" name="q5Radio">
+                      <label class="form-check-label" for="thirdCheckbox">Not at all</label>
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <!--Question 6-->
+          <div class="row border-bottom mt-5">
+            <div class="col">
+              <h5 class="text-primary-emphasis">How frequently do you post on the primary platform you utilize for social media marketing?</h5>
+              <ul class="list-group w-100">
+                  <li class="list-group-item border-0">
+                    <input class="form-check-input me-1" type="radio" value="q6Selection1Archetype4" name="q6Radio">
+                    <label class="form-check-label" for="firstCheckbox">1-2 times weekly</label>
+                  </li>
+                  <li class="list-group-item border-0">
+                    <input class="form-check-input me-1" type="radio" value="q6Selection2Archetype3" name="q6Radio">
+                    <label class="form-check-label" for="secondCheckbox">Once per day</label>
+                  </li>
+                  <li class="list-group-item border-0">
+                    <input class="form-check-input me-1" type="radio" value="q6Selection3Archetype2" name="q6Radio">
+                    <label class="form-check-label" for="thirdCheckbox">Multiple times per day</label>
+                  </li>
+                  <li class="list-group-item border-0">
+                      <input class="form-check-input me-1" type="radio" value="q6Selection4Archetype1" name="q6Radio">
+                      <label class="form-check-label" for="thirdCheckbox">A few times per month</label>
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <!--Question 7-->
+          <div class="row mt-5">
+            <div class="col">
+              <h5 class="text-primary-emphasis">Which of the following best describes the type of reputation you prefer influencers working with your organization to maintain?</h5>
+              <ul class="list-group w-100">
+                  <li class="list-group-item border-0">
+                    <input class="form-check-input me-1" type="radio" value="q7Selection1Archetype1" name="q7Radio">
+                    <label class="form-check-label" for="firstCheckbox">Local, relatable personas</label>
+                  </li>
+                  <li class="list-group-item border-0">
+                    <input class="form-check-input me-1" type="radio" value="q7Selection2Archetype2" name="q7Radio">
+                    <label class="form-check-label" for="secondCheckbox">Outgoing, enthusiastic performers</label>
+                  </li>
+                  <li class="list-group-item border-0">
+                    <input class="form-check-input me-1" type="radio" value="q7Selection3Archetype3" name="q7Radio">
+                    <label class="form-check-label" for="thirdCheckbox">Informative, interesting friends</label>
+                  </li>
+                  <li class="list-group-item border-0">
+                      <input class="form-check-input me-1" type="radio" value="q7Selection4Archetype4" name="q7Radio">
+                      <label class="form-check-label" for="thirdCheckbox">Highly popular celebrities</label>
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <div class="btn-group mt-3" role="group" aria-label="Basic example">
+            <button type="button" id="submit" onclick="calculateAnswers()" class="btn btn-primary">Submit</button>
+            <button type="reset" id="resetButton" onclick="resetAnswer()" class="btn btn-danger">Reset</button>
+          </div>
+          <script src="js/qscripts.js"></script>
+          <div id="answer" class="mt-3 p-1 border border-primary-subtle text-primary w-25 fw-bold">Click Submit to see your results!</div>
     </div>
+          <footer class="mt-5 pt-2 text-black text-center border-top">
+            <p>
+              Lucas Creative Media &copy; 2024
+              <a href="https://github.com/LucasCreativeMedia" target="_blank" class="text-black"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="ms-3 bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+              </svg></a>
+              <a href="https://www.behance.net/talucas" target="_blank" class="text-black"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class=" ms-2 bi bi-behance" viewBox="0 0 16 16">
+                <path d="M4.654 3c.461 0 .887.035 1.278.14.39.07.711.216.996.391s.497.426.641.747c.14.32.216.711.216 1.137 0 .496-.106.922-.356 1.242-.215.32-.566.606-.997.817.606.176 1.067.496 1.348.922s.461.957.461 1.563c0 .496-.105.922-.285 1.278a2.3 2.3 0 0 1-.782.887c-.32.215-.711.39-1.137.496a5.3 5.3 0 0 1-1.278.176L0 12.803V3zm-.285 3.978c.39 0 .71-.105.957-.285.246-.18.355-.497.355-.887 0-.216-.035-.426-.105-.567a1 1 0 0 0-.32-.355 1.8 1.8 0 0 0-.461-.176c-.176-.035-.356-.035-.567-.035H2.17v2.31c0-.005 2.2-.005 2.2-.005zm.105 4.193c.215 0 .426-.035.606-.07.176-.035.356-.106.496-.216s.25-.215.356-.39c.07-.176.14-.391.14-.641 0-.496-.14-.852-.426-1.102-.285-.215-.676-.32-1.137-.32H2.17v2.734h2.305zm6.858-.035q.428.427 1.278.426c.39 0 .746-.106 1.032-.286q.426-.32.53-.64h1.74c-.286.851-.712 1.457-1.278 1.848-.566.355-1.243.566-2.06.566a4.1 4.1 0 0 1-1.527-.285 2.8 2.8 0 0 1-1.137-.782 2.85 2.85 0 0 1-.712-1.172c-.175-.461-.25-.957-.25-1.528 0-.531.07-1.032.25-1.493.18-.46.426-.852.747-1.207.32-.32.711-.606 1.137-.782a4 4 0 0 1 1.493-.285c.606 0 1.137.105 1.598.355.46.25.817.532 1.102.958.285.39.496.851.641 1.348.07.496.105.996.07 1.563h-5.15c0 .58.21 1.11.496 1.396m2.24-3.732c-.25-.25-.642-.391-1.103-.391-.32 0-.566.07-.781.176s-.356.25-.496.39a.96.96 0 0 0-.25.497c-.036.175-.07.32-.07.46h3.196c-.07-.526-.25-.882-.497-1.132zm-3.127-3.728h3.978v.957h-3.978z"/>
+              </svg></a>
+            </p>
+          </footer>
+      </div>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
-  <footer>
-    <p>Created by Lucas Creative Media</p>
-  </footer>
 </html>
